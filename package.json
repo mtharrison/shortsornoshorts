@@ -1,0 +1,24 @@
+{
+  "name": "shortsornoshorts",
+  "version": "1.0.0",
+  "description": "Is it warm enough to wear shorts",
+  "main": "lib/index.js",
+  "keywords": [],
+  "author": "Matt Harrison",
+  "scripts": {
+    "start": "node lib/index",
+    "build": "parcel build src/index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.0.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
